@@ -1,0 +1,5 @@
+java -cp WordCounter-1.0-SNAPSHOT.jar org.example.WordCount file.txt
+
+SpringBoot application should be created and Wordcounter can be exposed using rest endpoint to the client.
+It will be post request and response will a a map of key:words and value:count of words.
+Or a Lambda function can be created in AWS as server is not required to run the program.
